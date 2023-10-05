@@ -12,6 +12,11 @@ function goNCSUcerts () {
     return window.open("https://api.badgr.io/public/collections/fa772cfc22ea459b91b81a94171ed99d", "_blank")
 }
 
+function goLPIcerts () {
+    return window.open("https://cs.lpi.org/caf/Xamman/certification/verify/LPI000559060/33synq3ybr", "_blank")
+}
+
+
 function goGithub () {
     return window.open("https://github.com/aidsdeth", "_blank")
 }
