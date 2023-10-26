@@ -10,10 +10,8 @@ variable "subdomain" {
 
 variable "route53_zone_id" {
   type    = string
-  default = "Z075984222QRHDKZRNI80"
 }
 
 variable "region" {
   type    = string
-  default = "us-east-1"
 }

@@ -1,0 +1,90 @@
+/* Reset default styles and include universal styling changes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #020307; /* very dark blue, almost black */
+    color: #d4d4dc; /* off-white, soft white */
+    line-height: 1.6;
+    padding-top: 80px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Header styling */
+header {
+    background: #04052e; /* deep space blue */
+    color: #ffffff;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main content area */
+main {
+    margin: 20px;
+    padding-top: 40px; /* additional space from the header */
+}
+
+article {
+    background: #020221; /* darker shade of deep blue, different from the body background */
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #343a49; /* adding a border to separate the article from the background */
+}
+
+article h2 a {
+    text-decoration: none;
+    color: #c5c6c7; /* light grey color for links */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #04052e; /* same as header background */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    header h1, nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin-top: 10px;
+    }
+}
